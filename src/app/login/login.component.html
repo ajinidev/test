@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row my-auto">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <form [formGroup]="login" class="row" (ngSubmit)="onSubmit()">
+        <input formControlName="email" type="email" />
+        <input formControlName="password" type="password" />
+        <button type="submit" class="btn btn-primary"> Next </button>
+      </form>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div>
